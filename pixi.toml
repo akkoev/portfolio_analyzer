@@ -1,0 +1,12 @@
+[workspace]
+authors = ["anton <antonverbeek@gmail.com>"]
+channels = ["conda-forge"]
+name = "portfolio_analyzer"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = ">=3.13.5,<3.14"
+requests = ">=2.32.4,<3"
